@@ -1,6 +1,6 @@
-type Child = (tab: string) => string;
+import type {PrintChild} from './types';
 
-export const printTree = (tab = '', children: (Child | null)[]): string => {
+export const printTree = (tab = '', children: (PrintChild | null)[]): string => {
   let str = '';
   const length = children.length;
   const last = length - 1;
