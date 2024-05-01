@@ -28,6 +28,7 @@ const str = 'start' + printTree('', [
 console.log(str);
 // start
 // ├── line 1
+// │
 // ├── line 2
 // │   ├── line 2.1
 // │   └── line 2.2
