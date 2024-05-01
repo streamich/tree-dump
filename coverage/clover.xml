@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714545571378" clover="3.2.0">
-  <project timestamp="1714545571378" name="All files">
+<coverage generated="1714545850712" clover="3.2.0">
+  <project timestamp="1714545850712" name="All files">
     <metrics statements="27" coveredstatements="26" conditionals="16" coveredconditionals="13" methods="2" coveredmethods="2" elements="45" coveredelements="41" complexity="0" loc="27" ncloc="27" packages="1" files="2" classes="2"/>
     <file name="printBinary.ts" path="/home/runner/work/tree-dump/tree-dump/src/printBinary.ts">
       <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
