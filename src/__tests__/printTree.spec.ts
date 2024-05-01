@@ -108,3 +108,22 @@ Array
         └─ item 2`,
   );
 });
+
+test('last child is angle, when end of list is "null"', () => {
+  // prettier-ignore
+  const str = 'Array' + printTree('', [
+    (tab) => '[0]:' + printTree(tab + ' ', [
+      (tab) => 'item 1',
+      null,
+    ]),
+    null,
+    null,
+  ]);
+
+  expect('\n' + str).toBe(
+    `
+Array
+└─ [0]:
+    └─ item 1`,
+  );
+});

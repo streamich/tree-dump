@@ -2,9 +2,9 @@ import type {PrintChild} from './types';
 
 export const printTree = (tab = '', children: (PrintChild | null)[]): string => {
   let str = '';
-  const length = children.length;
-  const last = length - 1;
-  for (let i = 0; i < length; i++) {
+  let last = children.length - 1;
+  for (; last >= 0; last--) if (children[last]) break;
+  for (let i = 0; i <= last; i++) {
     const fn = children[i];
     if (!fn) continue;
     const isLast = i === last;
