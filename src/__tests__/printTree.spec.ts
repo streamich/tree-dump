@@ -87,7 +87,8 @@ test('can add a blank line', () => {
 start
 ├─ line 1
 │
-└─ line 2`);
+└─ line 2`,
+  );
 });
 
 test('can produce wide tabs', () => {
@@ -104,6 +105,6 @@ test('can produce wide tabs', () => {
 Array
 └─ [5]: Object
         ├─ item 1
-        └─ item 2`);
+        └─ item 2`,
+  );
 });
-
